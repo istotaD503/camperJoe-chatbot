@@ -1,0 +1,24 @@
+{
+  "name": "campingjoe",
+  "version": "1.0.0",
+  "description": "Camping chat bot",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "author": "Alex Mazhavy",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "botbuilder": "^3.15.0",
+    "express": "^4.16.3",
+    "morgan": "^1.9.0",
+    "node-bing-api": "^4.0.0",
+    "request": "^2.87.0"
+  },
+  "devDependencies": {
+    "chalk": "^2.4.1",
+    "nodemon": "^1.17.5"
+  }
+}
